@@ -1,0 +1,96 @@
+<!-- <style>
+  button{
+    background-color:rgb(200, 0, 0);
+    color:white;
+    border:none;
+    height:36px;
+    width:105px;
+    border-radius:2px;
+    cursor:pointer;
+  }
+</style>
+
+
+
+<button>SUBSCRIBE</button> -->
+
+<style>
+  .subscribe-button{
+    background-color:rgb(200, 0, 0);
+    color:white;
+    border:none;
+    height:36px;
+    width:105px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-right:8px;
+    transition: opacity 0.15s;
+  }
+
+  .subscribe-button:hover{
+    opacity: 0.8; 
+  }
+
+  .subscribe-button:active{
+    opacity:0.4;
+  }
+
+  .join-button{
+    background-color:white;
+    border-color:rgb(73, 114, 228);
+    border-style:solid;
+    border-width:1px;
+    color:rgb(73, 114, 228);
+    height:36px;
+    width:65;
+    border-radius:2px;
+    cursor:pointer;
+    transition: background-color 0.15s, color 0.15s;
+
+  }
+
+  .join-button:hover{
+    background-color:rgb(73, 114, 228); 
+    color:white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+  .tweet-button{
+    background-color:rgb(2, 137, 255);
+    color:white;
+    border:none;
+    width:74px;
+    height:36px;
+    border-radius: 18px;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+    margin-left:8px;
+    transition: box-shadow 0.2s;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+  }
+
+ 
+
+  
+</style>
+<!-- to get round corner set border radius half of height or width whichever is minimum -->
+
+<!-- psuedo class- It basically adds extra styles in certain situations -->
+
+
+<!-- hover, transition, shadows -->
+<!-- transition property - we can specify the transition time to change the style, to smoothly change the style in mentioned time  -->
+<!-- box shadow : first value horizontal movement, second value vertical mnovement , third value blur, fourth value color -->
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+
+<button class="tweet-button">Tweet</button>
